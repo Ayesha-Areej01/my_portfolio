@@ -44,7 +44,7 @@ const Hero = () => {
                 scale={sizes.deskScale}
                 position={[
                   sizes.deskPosition[0],
-                  sizes.deskPosition[1] - 2,
+                  sizes.deskPosition[1] - 1,
                   sizes.deskPosition[2],
                 ]}
                 rotation={[0.1, -Math.PI, 0]}
@@ -56,7 +56,7 @@ const Hero = () => {
 
               <ReactLogo
                 position={[
-                  sizes.reactLogoPosition[0] + 2,
+                  sizes.reactLogoPosition[0] + 1,
                   sizes.reactLogoPosition[1],
                   sizes.reactLogoPosition[2],
                 ]}
@@ -64,7 +64,7 @@ const Hero = () => {
 
               <Rings
                 position={[
-                  sizes.ringPosition[0] - 4,
+                  sizes.ringPosition[0] - 3,
                   sizes.reactLogoPosition[1],
                   sizes.ringPosition[2],
                 ]}

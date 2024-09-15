@@ -74,7 +74,7 @@ const Contact = () => {
             life, I’m here to help.
           </p>
 
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7 min-h-screen mb-8 sm:mb-0 object-cover">
+          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7 min-h-screen mb-6 sm:mb-0 object-cover">
             <label className="space-y-3">
               <span className="field-label">Full Name</span>
               <input
